@@ -246,8 +246,10 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s(array) {
-  /*Your Code Here*/
+  const array20 = array.split('',2);
+  return array20
 }
+console.log(get20s(artists));
 
 
 
