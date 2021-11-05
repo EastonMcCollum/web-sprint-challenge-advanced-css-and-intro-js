@@ -246,7 +246,9 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s(array) {
-  
+  for(let key in array){
+
+  }
   
 }
 //console.log(get20s(artists));
@@ -309,10 +311,11 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 
 function lotsOfArt(array) {
   const lots = [];
-  
-  if(array.paintings > 100){
-    lots.push(array.name)
+  for(let i in array){
+  if(array[i].paintings > 100){
+    lots.push(array[i].name)
   }
+}
   return lots;
 }
 console.log(lotsOfArt(artists))
