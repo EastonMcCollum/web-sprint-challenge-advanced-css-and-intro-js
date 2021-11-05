@@ -137,7 +137,19 @@ button:hover{
 
 
 
-@media (max-width: 400px){
+@media (max-width: 800px){
+
+header{
+    width: 100%;
+}
+.nav a{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+
+
+
 
 .title-container{
     width: 100%;
@@ -149,6 +161,8 @@ button:hover{
 .artists-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .artist{
    width:80%; 
